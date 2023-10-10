@@ -1,0 +1,94 @@
+header {
+    background-color: rgb(165, 162, 255);
+}
+
+.g-btn button {
+    border-radius: 10px;
+    color: #070000;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    padding: 5px;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.loader p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.content {
+    display: none;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.loader p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.content {
+    display: none;
+}
+
+.post-body ol {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    list-style: none;
+}
+
+.post-body ol li {
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+}
+
+.post ol li:before {
+    content: none;
+}
+
+.post-body img{
+    width: 150px;
+}
+
+.btn-ped{
+    background: #bd94ff;
+}
