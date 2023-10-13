@@ -1,5 +1,9 @@
+body {
+    background: linear-gradient(to bottom, #e06b51, #ffffff);
+}
+
 header {
-    background-color: rgb(165, 162, 255);
+    background-color: rgb(255, 255, 255);
 }
 
 .g-btn button {
@@ -91,4 +95,61 @@ header {
 
 .btn-ped{
     background: #bd94ff;
+}
+
+.carta{
+    border-radius: 8px;
+  }
+
+  .mi-div {
+  position: relative;
+}
+
+.mi-div img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.texto {
+  width: 68%;
+}
+
+
+.imagee {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg-carta{
+    background: rgba(255, 255, 255, 0.589);
+}
+
+.bg-carta p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
+
+.fondo-ropa{
+    background: #bd94ff;
+}
+
+.fondo-accesorios{
+    background: #ffacf9;
+}
+
+.fondo-pape{
+    background: #ff91ac;
+}
+
+.fondo-post{
+    background: #71c57f;
+}
+
+.fondo-jug{
+    background: #71bac5;
 }
