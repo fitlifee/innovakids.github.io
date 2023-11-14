@@ -1,0 +1,119 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-weight: 700;
+}
+
+/* Codigo de la nav var */
+
+ .bottom-navbar {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #6f85ff;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .bottom-navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+/* Header */
+
+header{
+    background-color: #6f85ff;
+}
+
+.bienvenida{
+    background-color: aliceblue;
+}
+
+/* card del inicio */
+.titulo-card{
+    font-weight: 700;
+}
+
+.card1{
+    background-color: #6f85ff;
+    border-radius: 5%;
+    width: 75%;
+    padding: 5px;
+    position: relative;
+   
+
+}
+
+
+.imagen-saliente{
+    position: absolute;
+    top: -30px; /* Ajusta según sea necesario para que la imagen salga del div */
+    left: 33%; /* Ajusta según sea necesario para que la imagen salga del div */
+    /* Puedes ajustar top, right, bottom o left según tu diseño */
+}
+
+.hiden{
+    overflow: hidden;
+}
+
+.card1 .h5, p{
+    text-align: left !important;
+}
+
+.cardincard{
+    border-radius: 10px;
+    margin-top: 35% !important;
+    width: 80%;
+    margin-bottom: 2%;
+}
+
+
+.cardincard p{
+  font-size: 0.8rem;
+}
+
+.contenedor-cards{
+    margin-top: 13% !important;
+}
+
+/* estilos del input del inicio */
+
+.box input{
+    width: 95%;
+    height: 40px;
+    margin: 15px;
+}
+.box textarea{
+    resize: none;
+    width: 95%;
+    margin: 15px;
+}
+.boxxx button{
+    background-color: #020983;
+    border: 0px;
+    padding: 10px 40px;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.impulsame{
+    width: 60%;
+    border-radius: 10px;
+    background-color: #ff6730;
+    border-color: aliceblue;
+    color: #fff;
+    font-weight: 700;
+}
+
+
