@@ -6,6 +6,15 @@ h1{
     font-weight: 700;
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+p{
+    text-align: justify !important;
+}
+
 /* Codigo de la nav var */
 
  .bottom-navbar {
@@ -49,6 +58,9 @@ header{
 
 }
 
+.planes{
+    font-weight: 700;
+}
 
 .imagen-saliente{
     position: absolute;
@@ -61,7 +73,7 @@ header{
     overflow: hidden;
 }
 
-.card1 .h5, p{
+.card1 .h5 p{
     text-align: left !important;
 }
 
@@ -74,7 +86,7 @@ header{
 
 
 .cardincard p{
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .contenedor-cards{
@@ -116,4 +128,67 @@ header{
     font-weight: 700;
 }
 
+/* Loader */
 
+.loader-container{
+    position: fixed;
+    top:0; left:0;
+    z-index: 10000;
+    background:#fff;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width:100%;
+  }
+
+  .loader-container img{
+    display: flex;
+    margin-top: 25% !important;
+  }
+
+  .loader-container h2{
+    font-weight: 700;
+  }
+  
+  .loader-container.fade-out{
+    top:-120%;
+  }
+  
+  /* card desplazable */
+
+  .post-body ol {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-bottom: 10px;
+    display: -webkit-box;
+    list-style: none;
+  }
+  .post-body ol li {
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+  }
+  .post ol li:before {
+    content: none;
+  }
+  
+  .ultimo{
+    margin-bottom: 35%;
+  }
+
+  /* Planes */
+
+.plan1{
+    background-color: #6f85ff;
+    width: 75%;
+    border-radius: 10px;
+    color: #fff;
+    padding-top: 5px;
+}
+
+.precio{
+    font-weight: 700;
+}
