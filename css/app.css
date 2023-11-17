@@ -166,6 +166,11 @@ header{
     display: -webkit-box;
     list-style: none;
   }
+
+  .post-body img {
+    border-radius: 240px;
+}
+
   .post-body ol li {
     margin: 0;
     padding: 0;
