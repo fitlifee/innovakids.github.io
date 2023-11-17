@@ -22,3 +22,17 @@ const enviarFormulario =() => {
 var win= window.open(`https://wa.me/${numero}?text=Hola!%20quiero%20que%20me%20*impulses%20mi%20negocio*!%0D%0A%0D%0A*Nombre:*%0D%0A-%20${nombre}.%20(${apellido})%0D%0A%0D%0A*Descripción%20del%20emprendimiento:*%0D%0A-%20${mensaje}%0D%0A%0D%0A*Envía%20este%20mensaje%20para%20que%20un%20agente%20gestione%20tu%20solicitud.*`,'_blank');       
 }
 evento.addEventListener('click', enviarFormulario)
+
+// loader //
+
+function loader(){
+    document.querySelector('.loader-container').classList.add('fade-out');
+  }
+  
+  function fadeOut(){
+    setInterval(loader, 3000);
+  }
+  
+  window.onload = fadeOut();
+
+// scroll reveal 
